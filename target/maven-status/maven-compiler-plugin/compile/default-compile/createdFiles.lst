@@ -1,0 +1,10 @@
+controller\PesquisaClientesBean.class
+controller\CadastroUsuarioBean.class
+controller\TreinamentoBean.class
+controller\PesquisaProdutosBean.class
+controller\CadastroClienteBean.class
+controller\PesquisaPedidosBean.class
+Bean\Endereco.class
+Bean\Treinamento.class
+controller\PesquisaUsuariosBean.class
+controller\CadastroPedidoBean.class

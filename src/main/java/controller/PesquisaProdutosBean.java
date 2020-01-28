@@ -18,6 +18,7 @@ public class PesquisaProdutosBean implements Serializable {
     private static final long serialVersionUID = 1L;
 
     private List<Integer> produtosFiltrados;
+    private Integer produtoSelecionado;
 
     public PesquisaProdutosBean() {
         this.produtosFiltrados = new ArrayList<>();
@@ -26,11 +27,24 @@ public class PesquisaProdutosBean implements Serializable {
         }
     }
 
+    public void excluirProduto(){
+        produtosFiltrados.remove(produtoSelecionado);
+        produtoSelecionado = null;
+    }
+
     public List<Integer> getProdutosFiltrados() {
         return produtosFiltrados;
     }
 
     public void setProdutosFiltrados(List<Integer> produtosFiltrados) {
         this.produtosFiltrados = produtosFiltrados;
+    }
+
+    public Integer getProdutoSelecionado() {
+        return produtoSelecionado;
+    }
+
+    public void setProdutoSelecionado(Integer produtoSelecionado) {
+        this.produtoSelecionado = produtoSelecionado;
     }
 }
