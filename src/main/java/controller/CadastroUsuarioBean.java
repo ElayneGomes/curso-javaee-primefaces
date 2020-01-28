@@ -1,7 +1,7 @@
 package controller;
 
+import javax.annotation.ManagedBean;
 import javax.enterprise.context.RequestScoped;
-import javax.faces.bean.ManagedBean;
 import javax.inject.Named;
 import java.io.Serializable;
 import java.util.ArrayList;

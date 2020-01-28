@@ -1,14 +1,9 @@
 package controller;
 
-import Bean.Treinamento;
-
-import javax.faces.bean.ManagedBean;
+import javax.annotation.ManagedBean;
 import javax.faces.view.ViewScoped;
 import java.io.Serializable;
-import java.math.BigDecimal;
-import java.text.ParseException;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 @ManagedBean
